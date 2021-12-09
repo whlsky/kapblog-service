@@ -1,7 +1,7 @@
 package com.kapblog.articleService.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kapblog.articleService.model.AuthResource;
+import com.kapblog.articleService.model.entity.AuthResource;
 
 /**
  * <p>

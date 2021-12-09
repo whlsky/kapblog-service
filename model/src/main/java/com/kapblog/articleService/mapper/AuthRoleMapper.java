@@ -1,7 +1,7 @@
 package com.kapblog.articleService.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.kapblog.articleService.model.AuthRole;
+import com.kapblog.articleService.model.entity.AuthRole;
 
 /**
  * <p>

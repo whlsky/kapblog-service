@@ -1,4 +1,4 @@
-package com.kapblog.articleService.model;
+package com.kapblog.articleService.model.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
@@ -10,7 +10,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 角色表——不同的角色应该有不同的权限
+ * 资源表——记录restful形式下，所有的api
  * </p>
  *
  * @author nona9961
@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class AuthRole extends Model<AuthRole> {
+public class AuthResource extends Model<AuthResource> {
 
     private static final long serialVersionUID = 1L;
 
@@ -26,14 +26,24 @@ public class AuthRole extends Model<AuthRole> {
     private Integer id;
 
     /**
-     * 角色名称
+     * 资源名称
      */
     private String name;
 
     /**
-     * 角色状态：0:不可用；1:可用
+     * restful路径
      */
-    private Integer status;
+    private String path;
+
+    /**
+     * restful方法类别
+     */
+    private String methodType;
+
+    /**
+     * 权限类别：1.需要权限；9.无需权限
+     */
+    private Integer authType;
 
     /**
      * 创建时间
@@ -41,7 +51,7 @@ public class AuthRole extends Model<AuthRole> {
     private LocalDateTime createTime;
 
     /**
-     * 更新时间
+     * 修改时间
      */
     private LocalDateTime updateTime;
 

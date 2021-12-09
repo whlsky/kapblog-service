@@ -3,7 +3,7 @@
 <mapper namespace="com.kapblog.articleService.mapper.AuthResourceMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.kapblog.articleService.model.AuthResource">
+    <resultMap id="BaseResultMap" type="com.kapblog.articleService.model.entity.AuthResource">
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="path" property="path" />

@@ -1,7 +1,7 @@
 package com.kapblog.articleService.service.impl;
 
 import com.kapblog.articleService.mapper.AuthRoleMapper;
-import com.kapblog.articleService.model.AuthRole;
+import com.kapblog.articleService.model.entity.AuthRole;
 import com.kapblog.articleService.service.AuthRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
