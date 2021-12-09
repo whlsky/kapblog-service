@@ -23,4 +23,11 @@ public class Response<T> {
         return response;
     }
 
+    public static Response<String> error(String message) {
+        Response<String> response = new Response<>();
+        response.setCode(500);
+        response.setMsg(message);
+        return response;
+    }
+
 }
