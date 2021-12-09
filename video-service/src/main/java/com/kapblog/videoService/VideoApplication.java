@@ -1,11 +1,11 @@
-package com.kapblog;
+package com.kapblog.videoService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class kapblogArticle_Application {
+public class VideoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(kapblogArticle_Application.class, args);
+        SpringApplication.run(VideoApplication.class, args);
     }
 }

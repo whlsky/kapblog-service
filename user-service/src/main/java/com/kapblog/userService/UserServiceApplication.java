@@ -1,4 +1,4 @@
-package com.kapblog.userservice;
+package com.kapblog.userService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

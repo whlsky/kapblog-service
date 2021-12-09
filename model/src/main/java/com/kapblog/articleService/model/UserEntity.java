@@ -1,4 +1,4 @@
-package com.kapblog.model;
+package com.kapblog.articleService.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
