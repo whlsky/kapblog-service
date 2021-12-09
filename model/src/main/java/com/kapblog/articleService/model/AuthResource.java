@@ -57,7 +57,7 @@ public class AuthResource extends Model<AuthResource> {
 
 
     @Override
-    protected Serializable pkVal() {
+    public Serializable pkVal() {
         return this.id;
     }
 
