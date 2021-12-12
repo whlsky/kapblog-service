@@ -1,6 +1,6 @@
 package com.kapblog.userService.controller;
 
-import com.kapblog.articleService.model.entity.BaseAuth;
+import com.kapblog.articleService.model.authInfo.AuthInfo;
 import com.kapblog.articleService.model.http.Response;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +19,7 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public Response<?> login(@RequestBody @Valid BaseAuth baseAuth) {
+    public Response<?> login(@RequestBody @Valid AuthInfo authInfo) {
 
         return null;
     }
