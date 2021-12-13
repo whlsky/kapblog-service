@@ -5,7 +5,7 @@ import com.kapblog.articleService.model.authInfo.AuthInfo;
 /**
  * 和权限相关
  *
- * @author hu mingcheng
+ * @author nona9961
  * @date 2021/12/13 16:27
  */
 public interface AuthService {
