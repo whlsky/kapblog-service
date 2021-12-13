@@ -1,13 +1,7 @@
 package com.kapblog.userService.controller;
 
-import com.kapblog.articleService.model.authInfo.AuthInfo;
-import com.kapblog.articleService.model.http.Response;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.validation.Valid;
 
 /**
  * @author nona9961
@@ -18,9 +12,4 @@ import javax.validation.Valid;
 public class UserController {
 
 
-    @PostMapping("/login")
-    public Response<?> login(@RequestBody @Valid AuthInfo authInfo) {
-
-        return null;
-    }
 }

@@ -11,17 +11,10 @@ import java.util.Optional;
  * @date 2021/12/12
  */
 public class EmailAuthenticator implements Authenticator {
-    @Override
-    public boolean isApplicable(AuthInfo authInfo) {
-        return authInfo instanceof EmailVerifyAuthInfo;
-    }
 
     @Override
     public Optional<UserEntity> authenticate(AuthInfo authInfo) {
-        if (!isApplicable(authInfo)) {
-            return Optional.empty();
-        }
         EmailVerifyAuthInfo emailInfo = (EmailVerifyAuthInfo) authInfo;
-        return null;
+        return Optional.empty();
     }
 }
