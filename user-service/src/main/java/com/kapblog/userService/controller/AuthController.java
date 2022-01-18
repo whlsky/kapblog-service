@@ -1,9 +1,9 @@
 package com.kapblog.userService.controller;
 
-import com.kapblog.articleService.model.authInfo.AbstractVerifyCodeAuthInfo;
-import com.kapblog.articleService.model.authInfo.AuthInfo;
-import com.kapblog.articleService.model.authInfo.UserPassAuthInfo;
-import com.kapblog.articleService.model.http.Response;
+import com.kapblog.core.model.authInfo.AbstractVerifyCodeAuthInfo;
+import com.kapblog.core.model.authInfo.AuthInfo;
+import com.kapblog.core.model.authInfo.UserPassAuthInfo;
+import com.kapblog.core.model.http.Response;
 import com.kapblog.userService.service.AuthService;
 import org.springframework.web.bind.annotation.*;
 

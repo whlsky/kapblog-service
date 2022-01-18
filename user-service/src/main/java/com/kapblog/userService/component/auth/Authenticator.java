@@ -1,7 +1,7 @@
 package com.kapblog.userService.component.auth;
 
-import com.kapblog.articleService.model.authInfo.AuthInfo;
-import com.kapblog.articleService.model.entity.UserEntity;
+import com.kapblog.core.model.authInfo.AuthInfo;
+import com.kapblog.core.model.entity.UserEntity;
 
 import java.util.Optional;
 

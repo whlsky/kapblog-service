@@ -1,6 +1,6 @@
 package com.kapblog.userService.component.auth;
 
-import com.kapblog.articleService.model.authInfo.AuthInfo;
+import com.kapblog.core.model.authInfo.AuthInfo;
 
 /**
  * 注册的策略接口

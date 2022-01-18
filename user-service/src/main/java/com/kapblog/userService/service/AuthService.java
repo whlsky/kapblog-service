@@ -1,6 +1,6 @@
 package com.kapblog.userService.service;
 
-import com.kapblog.articleService.model.authInfo.AuthInfo;
+import com.kapblog.core.model.authInfo.AuthInfo;
 
 /**
  * 和权限相关
